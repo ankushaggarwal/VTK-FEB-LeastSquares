@@ -1065,7 +1065,7 @@ def RunLS(DataDir,FListOrdered,FId,ref,CF,C,PressureChoice,ProfileChoice,RunLSCh
         Cs = Out.x
         Cost = Out.cost
     else:
-        os.system('/Applications/FEBioStudio3.5/FEBioStudio.app/Contents/MacOS/febio3 -i ./FEB_Files/' + DataDir+'.feb')
+        os.system('/Applications/FEBioStudio/FEBioStudio.app/Contents/MacOS/febio3 -i ./FEB_Files/' + DataDir+'.feb')
         Cs = C
         Cost = 'N/A'
      
